@@ -13,8 +13,8 @@
 // limitations under the License.
 
 #include <dimod/quadratic_model.h>
+#include <catch2/catch.hpp>
 
-#include "catch2/catch.hpp"
 #include "dwave-preprocessing/fix_variables.hpp"
 
 namespace fix_variables_ {

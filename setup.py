@@ -56,7 +56,7 @@ setup(
         ['dwave/preprocessing/cyfix_variables.pyx',
          'dwave/preprocessing/presolve/*.pyx',
          ],
-        annotate=bool(os.getenv('CYTHON_ANNOTATE', False)),
+        annotate=True,  # no harm in always annotating
         nthreads=int(os.getenv('CYTHON_NTHREADS', 0)),
         ),
     include_dirs=[
